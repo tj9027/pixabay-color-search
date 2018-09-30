@@ -1,9 +1,4 @@
-
-Dragomir Ceban <svedava@mail.ru>
-Sun, Aug 19, 5:02 PM
-to me
-
-IINU React Challenge
+React Challenge
 
 This is an ‘onboarding, learning and refreshing yourself with react & testing task' rather than a tech test you can pass or fail sort of situation. Make sure to ask for assistance and clarification on any points and we’ll get back to you ASAP!
 
