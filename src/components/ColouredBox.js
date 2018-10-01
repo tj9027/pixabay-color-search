@@ -6,7 +6,7 @@ export default class ColouredBox extends Component {
     this.handleColor = this.handleColor.bind(this);
   }
   handleColor() {
-    this.props.onClick(this.props.color)
+    this.props.onClick(this.props.color);
   }
   render() {
     return (

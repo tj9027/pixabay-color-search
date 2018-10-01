@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ColouredBox from './ColouredBox';
+import ImageList from './ImageList';
 
 export default class AppBase extends Component {
   constructor(props) {
@@ -20,25 +21,32 @@ export default class AppBase extends Component {
         this.setState({
           res: json.hits
         });
-      });
+      })
+      .catch((error) => { console.log('parsing failed', error) });
   }
 
   render() {
-    const images = this.state;
+    const { colors, res } = this.state;
     return (
-      <div>{
-        this.state.colors.map(color => (
-          <ColouredBox
-            key={color}
-            onClick={this.handleOnClick}
-            color={color} />)
-        )
-      }
-        {images.res && images.res.map(image =>
-          <img src={image.previewURL} alt={image.tags} key={image.id} />
-        )
+      <div>
+        <div className="buttonsContainer">{
+          colors.map(color => (
+            <ColouredBox
+              className='buttonsContainer__box'
+              key={color}
+              onClick={this.handleOnClick}
+              color={color} />)
+          )
         }
-      </div>
+        </div>
+        {
+          res.length > 0 ?
+            <ImageList
+              images={res}
+            /> :
+            <p> no results found</p>
+        }
+      </div >
     )
   }
 }

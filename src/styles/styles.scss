@@ -1,1 +1,18 @@
 @import '~bootstrap/scss/bootstrap';
+
+.buttonsContainer{
+  background: grey;
+  @extend .float-left;
+}
+
+.imagesListContainer{
+  @extend .jumbotron;
+  @extend .float-right;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#main,.buttonsContainer.imagesListContainer{
+  @extend .container;
+}
