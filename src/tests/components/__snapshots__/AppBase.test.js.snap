@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AppBase correctly 1`] = `
+<div>
+  <div
+    className="buttonsContainer"
+  >
+    <ColouredBox
+      className="buttonsContainer__box"
+      color="red"
+      key="red"
+      onClick={[Function]}
+    />
+    <ColouredBox
+      className="buttonsContainer__box"
+      color="yellow"
+      key="yellow"
+      onClick={[Function]}
+    />
+    <ColouredBox
+      className="buttonsContainer__box"
+      color="green"
+      key="green"
+      onClick={[Function]}
+    />
+    <ColouredBox
+      className="buttonsContainer__box"
+      color="purple"
+      key="purple"
+      onClick={[Function]}
+    />
+  </div>
+  <p>
+     no results found
+  </p>
+</div>
+`;
+
+exports[`should render images with mocked data 1`] = `
+<div>
+  <div
+    className="buttonsContainer"
+  >
+    <ColouredBox
+      className="buttonsContainer__box"
+      color="red"
+      key="red"
+      onClick={[Function]}
+    />
+    <ColouredBox
+      className="buttonsContainer__box"
+      color="yellow"
+      key="yellow"
+      onClick={[Function]}
+    />
+    <ColouredBox
+      className="buttonsContainer__box"
+      color="green"
+      key="green"
+      onClick={[Function]}
+    />
+    <ColouredBox
+      className="buttonsContainer__box"
+      color="purple"
+      key="purple"
+      onClick={[Function]}
+    />
+  </div>
+  <ImageList
+    images={
+      Array [
+        Object {
+          "comments": 112,
+          "downloads": 190690,
+          "favorites": 431,
+          "id": 3113318,
+          "imageHeight": 1824,
+          "imageSize": 1026006,
+          "imageWidth": 2736,
+          "largeImageURL": "https://pixabay.com/get/ea34b00c2bf5093ed1584d05fb1d4796e171e5d219b50c4090f3c97da0e8b2b8df_1280.jpg",
+          "likes": 674,
+          "pageURL": "https://pixabay.com/en/sunflower-nature-flora-flower-3113318/",
+          "previewHeight": 99,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/01/28/11/24/sunflower-3113318_150.jpg",
+          "previewWidth": 150,
+          "tags": "sunflower, nature, flora",
+          "type": "photo",
+          "user": "bichnguyenvo",
+          "userImageURL": "https://cdn.pixabay.com/user/2017/12/16/10-28-39-199_250x250.jpg",
+          "user_id": 7410713,
+          "views": 286514,
+          "webformatHeight": 426,
+          "webformatURL": "https://pixabay.com/get/ea34b00c2bf5093ed1584d05fb1d4796e171e5d219b50c4090f3c97da0e8b2b8df_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 181,
+          "downloads": 227012,
+          "favorites": 676,
+          "id": 3063284,
+          "imageHeight": 4000,
+          "imageSize": 3574625,
+          "imageWidth": 6000,
+          "largeImageURL": "https://pixabay.com/get/ea35b70c2afc053ed1584d05fb1d4796e171e5d219b50c4090f3c97da0e8b2b8df_1280.jpg",
+          "likes": 799,
+          "pageURL": "https://pixabay.com/en/rose-flower-petal-floral-noble-3063284/",
+          "previewHeight": 99,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/01/05/16/24/rose-3063284_150.jpg",
+          "previewWidth": 150,
+          "tags": "rose, flower, petal",
+          "type": "photo",
+          "user": "annca",
+          "userImageURL": "https://cdn.pixabay.com/user/2015/11/27/06-58-54-609_250x250.jpg",
+          "user_id": 1564471,
+          "views": 404360,
+          "webformatHeight": 426,
+          "webformatURL": "https://pixabay.com/get/ea35b70c2afc053ed1584d05fb1d4796e171e5d219b50c4090f3c97da0e8b2b8df_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 47,
+          "downloads": 31190,
+          "favorites": 124,
+          "id": 3640935,
+          "imageHeight": 3717,
+          "imageSize": 4970597,
+          "imageWidth": 5574,
+          "largeImageURL": "https://pixabay.com/get/ea33b50f21f7043ed1584d05fb1d4796e171e5d219b50c4090f3c97da0e8b2b8df_1280.jpg",
+          "likes": 163,
+          "pageURL": "https://pixabay.com/en/sunflowers-field-woman-yellow-3640935/",
+          "previewHeight": 99,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/08/29/22/52/sunflowers-3640935_150.jpg",
+          "previewWidth": 150,
+          "tags": "sunflowers, field, woman",
+          "type": "photo",
+          "user": "jill111",
+          "userImageURL": "https://cdn.pixabay.com/user/2018/06/27/01-23-02-27_250x250.jpg",
+          "user_id": 334088,
+          "views": 43090,
+          "webformatHeight": 426,
+          "webformatURL": "https://pixabay.com/get/ea33b50f21f7043ed1584d05fb1d4796e171e5d219b50c4090f3c97da0e8b2b8df_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 30,
+          "downloads": 15012,
+          "favorites": 484,
+          "id": 2295434,
+          "imageHeight": 3575,
+          "imageSize": 2938651,
+          "imageWidth": 5363,
+          "largeImageURL": "https://pixabay.com/get/eb37b80a2cf7053ed1584d05fb1d4796e171e5d219b50c4090f3c97da0e8b2b8df_1280.jpg",
+          "likes": 431,
+          "pageURL": "https://pixabay.com/en/spring-bird-bird-tit-spring-blue-2295434/",
+          "previewHeight": 99,
+          "previewURL": "https://cdn.pixabay.com/photo/2017/05/08/13/15/spring-bird-2295434_150.jpg",
+          "previewWidth": 150,
+          "tags": "spring bird, bird, tit",
+          "type": "photo",
+          "user": "jill111",
+          "userImageURL": "https://cdn.pixabay.com/user/2018/06/27/01-23-02-27_250x250.jpg",
+          "user_id": 334088,
+          "views": 39036,
+          "webformatHeight": 426,
+          "webformatURL": "https://pixabay.com/get/eb37b80a2cf7053ed1584d05fb1d4796e171e5d219b50c4090f3c97da0e8b2b8df_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 28,
+          "downloads": 34354,
+          "favorites": 244,
+          "id": 715540,
+          "imageHeight": 1703,
+          "imageSize": 974940,
+          "imageWidth": 3020,
+          "largeImageURL": "https://pixabay.com/get/ee34b40a2cf41c22d2524518b74d4694e570e5d51dac104496f8c57ea2eab5bf_1280.jpg",
+          "likes": 243,
+          "pageURL": "https://pixabay.com/en/yellow-natural-flower-blossom-715540/",
+          "previewHeight": 84,
+          "previewURL": "https://cdn.pixabay.com/photo/2015/04/10/00/41/yellow-715540_150.jpg",
+          "previewWidth": 150,
+          "tags": "yellow, natural, flower",
+          "type": "photo",
+          "user": "Wow_Pho",
+          "userImageURL": "https://cdn.pixabay.com/user/2015/04/07/14-10-15-590_250x250.jpg",
+          "user_id": 916237,
+          "views": 75190,
+          "webformatHeight": 360,
+          "webformatURL": "https://pixabay.com/get/ee34b40a2cf41c22d2524518b74d4694e570e5d51dac104496f8c57ea2eab5bf_640.jpg",
+          "webformatWidth": 640,
+        },
+      ]
+    }
+  />
+</div>
+`;

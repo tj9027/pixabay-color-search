@@ -18,11 +18,12 @@ export default class AppBase extends Component {
     fetch(`https://pixabay.com/api/?key=10267704-bfb21886ef6e90742679b97fe&q=${color}+${this.state.keywords[random]}&per_page=5&image_type=photo&pretty=true`)
       .then(results => results.json())
       .then(json => {
+        alert(JSON.toString(json));
         this.setState({
           res: json.hits
         });
       })
-      .catch((error) => { console.log('parsing failed', error) });
+      .catch((error) => { alert('parsing failed', error); });
   }
 
   render() {
