@@ -10,7 +10,6 @@ Requirements
 
 * Either provide instructions on how to view your app, or make it live using Heroku or using a similar service.
 
-* Be prepared for discussion and review regardless of completion on 17th November.
 
 Specification
 
